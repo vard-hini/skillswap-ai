@@ -91,6 +91,11 @@ npm run start
 
 ---
 
+## Features
+- Skill Exchange
+- AI Matching
+- Community Learning
+
 ## 🎓 Student Portfolio Integration
 
 This project displays production-ready architecture designed for resume highlights:
