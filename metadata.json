@@ -1,0 +1,6 @@
+{
+  "name": "SkillSwap AI",
+  "description": "A modern full-stack skill-sharing and mentoring platform powered by AI recommendations, real-time chat, and an interactive matching engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
