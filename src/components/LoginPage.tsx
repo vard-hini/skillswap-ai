@@ -6,6 +6,7 @@ interface LoginPageProps {
   onLogin: (email: string) => Promise<boolean>;
   onNavigate: (view: string) => void;
   darkMode: boolean;
+  appName?: string;
 }
 
 export default function LoginPage({ onLogin, onNavigate, darkMode }: LoginPageProps) {
