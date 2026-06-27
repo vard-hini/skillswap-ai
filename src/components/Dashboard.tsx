@@ -22,14 +22,23 @@ import {
 import { User, Match, Notification } from "../types";
 
 interface DashboardProps {
+  // User
   currentUser: User;
+
+  // Navigation
   onNavigate: (view: string) => void;
+
+  // Data
   matches: Match[];
   notifications: Notification[];
   availableMentorsCount: number;
   availableSkillsCount: number;
+
+  // Actions
   onAcceptMatch: (matchId: string) => void;
   onRejectMatch: (matchId: string) => void;
+
+  // UI
   darkMode: boolean;
 }
 
